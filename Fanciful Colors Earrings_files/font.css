@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'CALIBRI_1';
+	src: url('CALIBRI_1.eot');
+	src: local('Calibri'), url('CALIBRI_1.woff') format('woff'), url('CALIBRI_1.ttf') format('truetype'), url('CALIBRI_1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'CALIBRIB_1';
+	src: url('CALIBRIB_1.eot');
+	src: local('Calibri Bold'), url('CALIBRIB_1.woff') format('woff'), url('CALIBRIB_1.ttf') format('truetype'), url('CALIBRIB_1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CALIBRII_1';
+	src: url('CALIBRII_1.eot');
+	src: local('Calibri Bold Italic'), url('CALIBRII_1.woff') format('woff'), url('CALIBRII_1.ttf') format('truetype'), url('CALIBRII_1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_CALIBRIZ_1';
+	src: url('CALIBRIZ_1.eot');
+	src: local('Calibri Italic'), url('CALIBRIZ_1.woff') format('woff'), url('CALIBRIZ_1.ttf') format('truetype'), url('CALIBRIZ_1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+

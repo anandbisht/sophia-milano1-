@@ -1,0 +1,148 @@
+div.fblogin {cursor:pointer;}
+
+
+
+div.fblogin p::before{
+
+    width:20px;
+
+    height:26px;
+
+    background:url('../img/fb1.png') no-repeat top right;
+
+    display:inline-block;
+
+    content:"";
+
+}
+
+
+
+div.fblogin p {
+
+    padding:0px 0px;
+
+    background:url('../img/fb2.png') repeat-x top;
+
+    height:26px;
+
+    color:#FFF;
+
+    text-shadow:1px 1px 0px #41577d;
+
+    font-size:12px;
+
+    display:inline-block;
+
+}
+
+div.fblogin p span {
+
+    display:inline-block;
+
+    padding:0px 10px;
+
+    position:relative;
+
+    top:-9px;
+
+    font-weight:bold;
+
+}
+
+
+
+div.fblogin p:after{
+
+    width:2px; 
+
+    height:26px;
+
+    background:url('../img/fb3.png') no-repeat top left;
+
+    display:inline-block;
+
+    content: "";
+
+}
+
+
+
+
+
+.fblogin-link {
+
+float:right;
+
+border-left: 1px solid #515151;
+
+display: block;
+
+color: white;
+
+font-weight: bold;
+
+padding: 8px 10px 11px 10px;
+
+text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+
+cursor: pointer;
+
+line-height: 18px;
+
+}
+
+
+
+
+
+.fbloader{
+
+    display:none;
+
+    position:fixed;
+
+    bottom:0px;
+
+    right:0px;
+
+    height:40px;
+
+    width:80px;
+
+    background:#3B5998 url('../img/loading.gif') no-repeat center;
+
+}
+
+
+
+.loginpopupsocial {
+
+    display:inline-block;
+
+    float:left;
+
+    margin-right:10px;
+
+    margin-top:5px;
+
+}
+
+.loginpopupsocial span {
+
+    color:#FFF!important;
+
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2)!important;
+
+    font-family:arial!important;
+
+}
+
+
+
+.loginpopupsocial p {
+
+    margin-top:0px;
+
+}
+

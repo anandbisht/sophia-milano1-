@@ -1,0 +1,476 @@
+
+.connectpanel{clear: both;
+    display: flex;
+    margin: auto;
+    width: 290px;}
+    
+#searchbox .ui-input-search{
+    width: 100% !important;
+}
+
+#newsletter_block_left .title_block{color:#fff !important;}
+
+div.new-logo-pan{display: none;}
+
+.new-textbox{width:94% !important;}
+
+.ui-input-search input.ui-input-text{width: 94% !important;}
+
+.new-color{background:#bc8f66 !important; color: #fff;}
+.ui-btn-up-c{border-color:#bc8f66 !important;}
+
+#header{background:none !important;}
+
+
+#search-text-input{
+
+           
+            float:left;
+            height:34px;
+			border:1px solid #fff !important;
+			background:#fff;
+            outline:0;
+            padding:.4em 0 .4em .6em; 
+ 
+        }
+         
+        #button-holder{
+            
+            cursor:pointer;
+            right:15px;
+			position:absolute;
+            height:27px;
+			top:10px;
+            margin:12px 0 0;
+            text-align:center;
+            width:50px;
+        }
+         
+        #button-holder img{
+            margin:4px;
+            width:20px; 
+        }
+
+		
+#searchboxnew input#search_query_top::-moz-placeholder{
+/*    color: #cfb771 !important;*/
+	padding-left:20px !important;
+    width: 100% !important;
+}
+
+#searchboxnew input#search_query_top{
+    background: transparent url("../images/searchnew.png") no-repeat scroll 98% center !important;
+   width: 100% !important;
+    border-radius: 5px;
+   height: 35px;    
+}
+
+
+
+
+		
+.phonenumber_mobile{float:left;}
+.searchboxnew{border-radius:0 !important; position:relative; padding:5px 2% !important;  }
+
+.newbanner {
+    border-radius: 0 !important;
+    padding: 1% 2% !important;
+    position: relative;
+	margin:40px 0 0;
+}
+
+#newmenu .ui-link{font-weight:normal;}
+.nav-dropdown .menu .is-visible li a{font-weight:bold !important;}
+
+  
+#searchboxnew .ui-input-text.ui-body-a{text-shadow:none !important;}
+
+input.search-text-input:-moz-placeholder {  
+      color: green !important;  
+    }  
+
+
+#newmobmenu .ui-btn-up-a{border:none; margin:19px 0 !important; box-shadow: none !important;}
+#newmobmenu .ui-btn-hover-a{border: none !important;  margin:19px 0 !important; box-shadow: none !important;}
+
+
+
+#searchboxnew .ui-input-text.ui-shadow-inset.ui-corner-all.ui-btn-shadow.ui-body-a{float:none;}
+		  
+#searchboxnew .ui-input-text input{ /*height:40px;*/}
+#searchboxnew input:-moz-placeholder{color:red !important;}
+
+#searchboxnew .ui-body-a, .ui-overlay-a{border:none !important;}
+
+#product #newmobmenu .ui-btn-inner {
+   padding: 0.55em 11px 0.5em !important;
+}
+		  
+/*.searchboxnew input{padding:20px; border:none !important; border-radius:0; background:#fff !important;}*/
+
+
+.mob-menu {
+    float: left !important;
+   /*  width: 12% !important; */
+}
+
+
+.logoareanew{margin-top:-5px; float:left; margin-left: 10px;}
+
+#block_cart-bg span.loginarea1{margin-right:-10px !important; margin-top:5px;}
+
+.loginareanew{width: auto !important;}
+
+.link_account3 {
+    background-image:url(../images/bagicon.png) !important;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size:  auto 22px !important;
+    border-left: 1px solid #f4f4f4 !important;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+
+.link_account4 {
+    background-image: url(../images/wishlisticon.png) !important;
+    background-position: 20% 10% !important;
+    background-repeat: no-repeat;
+    background-size:  auto 22px !important;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    text-indent: -9999px;
+}
+.link_cart {
+    background-image: url(../images/loginicon.png) !important;
+    background-position: 7px 10%;
+    background-repeat: no-repeat;
+    background-size:  auto 22px !important;
+    border-left: 1px solid #f4f4f4 !important;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    text-indent: -9999px;
+    width: 5px;
+}
+
+.link_account_logout {
+    background-image: url(../images/logouticon.png) !important;
+    background-position: 75% 10%;
+    background-repeat: no-repeat;
+    background-size: auto 22px !important;
+    border-left: 1px solid #f4f4f4 !important;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    text-decoration: none;
+    text-indent: -9999px;
+    width: 5px;
+}
+
+.ui-block-bgnew{
+    float: left !important;
+   	height: 40px !important;
+    padding: 10px 0 0 !important;
+    width: 95% !important;
+  
+}
+
+
+.newbanner{margin:auto; text-align:center; background:#fff; clear:both;  margin:2% 2% 0 !important;}
+
+
+.fieldcontainer{position:relative;}
+
+/* Search Box */
+#searchboxnew form#searchbox{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.location_input {
+
+  height: 20px !important;
+  float: left;
+  padding-left: 3px;
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 3px 35px 3px 15px !important;
+  font: normal 16px/normal "Open Sans", sans-serif;
+  margin-left: 6px;
+  position: relative;
+}
+
+.update_location_wrapper{
+  margin-top: 4px;
+  margin-left: -25px;
+  float: left;
+  height: 30px;
+
+  border-left: none;
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
+
+
+/**
+ * Navigation
+ */
+ 
+ .menu-item  a{font-size:17px !important;}
+ .nav-menu > li > ul > li a{font-weight:bold !important;}
+ 
+ .menu-item-phone{font-size:17px; color:#d6b683; width:80%; margin:auto; padding:10px 20px; background-image:url('../images/menu-phoneicon.png'); background-repeat:no-repeat; background-position:11% center; background-size:20px 20px; padding-left:65px;}
+
+#newmenu .nav {
+/*  position: fixed;*/
+  top: 0;
+ /* left: 0;*/
+  float:left;
+  /*width: 100%;*/
+  z-index: 10000;
+  /*background-color: #efefef;*/
+}
+
+/** 
+* Nav container 
+* 1. Ensure this slides in below parent
+* 2. Hide by default
+* 3. Smoother scrolling experience on iOS
+*/
+
+#newmenu .nav-container {
+  /*position: fixed;*/
+  position:absolute;
+  top: 60px; /* 1 */
+  left: 0;
+  z-index: 9999;
+ /* overflow-y: auto;*/
+  visibility: hidden; /* 2 */
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%); /* 2 */
+  background-color: #c0c0c0;
+  -webkit-overflow-scrolling: touch; /* 3 */
+}
+
+/* 1. Show when `.is-visible` class is added */
+
+#newmenu .nav-container.is-visible {
+  visibility: visible; /* 1 */
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0); /* 1 */
+}
+
+/* Nav toggle */
+
+#newmenu .nav-toggle {
+  line-height: 1;
+  display: inline-block;
+  padding: 0.7rem 0.7rem;
+ /* border-radius:10px;*/
+/*	border:  1px solid #d4d4d4;*/
+  border: 0;
+/*  background-color: #fff;*/
+    background-color: transparent;
+}
+
+/* Nav toggle icon */
+
+#newmenu .nav-toggle .icon-menu {
+  position: absolute;
+/*  display: inline-block;*/
+  width: 28px;
+  height: 20px;
+  top:0;
+  left:5px;
+  vertical-align: middle;
+  fill: none;
+}
+
+/* Nav toggle icon lines */
+
+#newmenu .icon-menu .line {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  background-color: #fff;
+}
+
+/* Nav toggle icon line 1 */
+
+#newmenu .icon-menu .line-1 { top: 0; }
+
+/* When active, rotate line 1 to be lefthand part of X */
+
+#newmenu .is-active .icon-menu .line-1 {
+  -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
+  -ms-transform: translateY(8px) translateX(0) rotate(45deg);
+  transform: translateY(8px) translateX(0) rotate(45deg);
+}
+
+/* Nav toggle icon line 2 */
+
+#newmenu .icon-menu .line-2 {
+  top: 50%;
+  margin-top: -3px;
+}
+
+/* When active, hide line 2 */
+
+#newmenu .is-active .icon-menu .line-2 { opacity: 0; }
+
+/* Nav toggle icon line 3 */
+
+#newmenu .icon-menu .line-3 { bottom: 3px; }
+
+/* When active, rotate line 3 to be righthand part of X */
+
+#newmenu .is-active .icon-menu .line-3 {
+  -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
+  -ms-transform: translateY(-8px) translateX(0) rotate(-45deg);
+  transform: translateY(-8px) translateX(0) rotate(-45deg);
+}
+
+/* Remove default list styles for menus */
+
+#newmenu .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/** 
+* 1. Give menu a lighter background than its container 
+* 2. Prevent menu text from being accidentally highlighted
+*/
+
+#newmenu .nav-menu {
+  background-color: #f2f2f4; /* 1 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;         /* 2 */
+}
+
+/* Give menu items a top border */
+
+#newmenu .nav-menu .menu-item { border-top: 1px solid #eae0eb; /* margin:0 15px; */ margin:auto; width:94%;  padding-left: 1%;}
+
+/* Give last menu item a bottom border */
+
+#newmenu .nav-menu > .menu-item:last-child { border-bottom: 1px solid #bbb; }
+
+/* Darker background color on hover, and when toggled */
+
+#newmenu .nav-menu > .menu-item:hover,
+#newmenu .nav-menu > .menu-item.is-active { /* background-color: #d0d0d0; */ }
+
+/* 1. Menu links are block level, by default */
+
+#newmenu .nav-menu .menu-link {
+  display: block; /* 1 */
+  text-decoration: none;
+  color: #75366f;
+  /* padding: 0.75rem 1rem; */
+  padding:0.5rem 0;
+}
+
+/* 1. Menu items with dropdowns appear clickable */
+
+#newmenu .has-dropdown {
+  position: relative;
+  cursor: pointer; /* 1 */
+}
+
+/* 1. Parent menu links inlined so you can toggle the dropdown */
+
+#newmenu .has-dropdown > .menu-link { display: inline-block; }
+
+/* 1. Add an icon to menu items that have sub menus */
+
+.has-dropdown:after {
+  font-size:21px;
+  position: absolute;
+  top: 0.25rem;
+  right: 1rem;
+  bottom: 0;
+  content: "+"; /* 1 */
+  color: #80376c;
+}
+
+/* 1. Switch icon to n-dash when toggled */
+
+#newmenu .has-dropdown.is-active:after { content: "\2013"; /* 1 */ }
+
+/**
+ * Dropdowns
+ * 1. Hide dropdowns by default
+ */
+
+#newmenu .nav-dropdown {
+  display: none; /* 1 */
+  background-color: #f2f2f4;
+}
+
+/* 1. Show dropdown when toggled */
+
+#newmenu .has-dropdown.is-active > .nav-dropdown { display: block; /* 1 */ }
+
+/* 2nd level dropdown */
+
+#newmenu .nav-dropdown .nav-dropdown { background-color: #aaa; }
+
+#newmenu .nav-dropdown .menu-item { border-color: #f2f2f4; padding-left:20px; font-weight:bold; }
+
+#newmenu .nav-dropdown .nav-dropdown .menu-item {
+  background-color: #b0b0b0;
+  border-color: #909090;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+   .logoareanew {
+    margin-top: 5px;
+    width: 25%;
+}
+
+}
+
+@media only screen and (max-width:767px){
+	#button-holder{right:5px; top:5px;}
+	
+	.ui-block-bgnew{
+    width: 88% !important;
+	padding:10px 0 0 !important;
+	}
+	.logoareanew {
+    float: left;
+	width:55%;
+    margin-left: 25px;
+    margin-top:3px;
+}
+	
+}
+

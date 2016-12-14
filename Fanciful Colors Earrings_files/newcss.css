@@ -1,0 +1,521 @@
+#etalage{
+	display: none;
+	margin-bottom: 10px;
+}
+
+.etalage_small_thumb{width:50px !important; height:50px !important;}
+
+/* Large thumbnail: */
+#etalage .etalage_thumb{
+	background: white url(../images/loading.gif) center no-repeat;
+	/*border: 1px solid #ddd;*/
+	padding: 6px 0 0;
+	/*-webkit-box-shadow: 0 0 10px #ddd;
+	-moz-box-shadow: 0 0 10px #ddd;
+	box-shadow: 0 0 10px #ddd;*/
+}
+/* Large thumbnail - image (in case you want to add a border around the image within the frame) */
+#etalage .etalage_thumb_image{ }
+
+/* Small thumbnails: */
+#etalage .etalage_small_thumbs li{
+	background: white;
+	/*border: 1px solid #ddd;*/
+	margin: 10px;
+	padding: 5px 0 0;
+}
+/* The one on the left that makes them slide */
+#etalage ul li.etalage_smallthumb_first{ }
+/* The one on the right that makes them slide */
+#etalage ul li.etalage_smallthumb_last{ }
+/* The currently active one */
+/*#etalage ul li.etalage_smallthumb_active{
+	-webkit-box-shadow: 0 0 10px #ddd;
+	-moz-box-shadow: 0 0 10px #ddd;
+	box-shadow: 0 0 10px #ddd;
+}*/
+
+/* Zoomed image area: */
+#etalage .etalage_zoom_area,
+.etalage_zoom_area{
+	background: white url(../images/loading.gif) center no-repeat;
+	/*border: 1px solid #ddd;*/
+	padding: 6px;
+	/*-webkit-box-shadow: 0 0 10px #ddd;
+	-moz-box-shadow: 0 0 10px #ddd;
+	box-shadow: 0 0 10px #ddd;*/
+}
+
+/* Magnifier area (thumbnail hovering rectangle): */
+#etalage .etalage_magnifier{
+	background: white;
+	border: 1px solid #bbb;
+}
+
+/* Icon that will apear at the left bottom of the large thumbnail (optional): */
+#etalage .etalage_icon{
+	background: url(../images/zoom.gif) no-repeat;
+	width: 14px;
+	height: 14px;
+	display: none !important;
+}
+
+/* Hint that will apear at the top right of the large thumbnail (optional): */
+#etalage .etalage_hint{
+	width: 130px;
+	height: 57px;
+}
+
+/* Description area (optional) */
+#etalage .etalage_description{
+	background: white;
+	font-style: italic;
+	margin: 10px;
+	padding: 6px 10px;
+}
+
+/*
+ * ------------------------------------ FUNCTIONALITY --------------------------------------
+ * The following CSS serves to make Etalage function properly. Don't edit or edit carefully.
+ * -----------------------------------------------------------------------------------------
+ */
+
+.etalage, .etalage_thumb, .etalage_thumb_image, .etalage_source_image, .etalage_zoom_preview, .etalage_icon, .etalage_hint{ display:none }
+.etalage, .etalage ul, .etalage li, .etalage img, .etalage_hint, .etalage_icon, .etalage_description{ margin:0; padding:0; border:0; list-style:none }
+.etalage, .etalage_magnifier div, .etalage_magnifier div img, .etalage_small_thumbs ul, ul .etalage_small_thumbs li, .etalage_zoom_area div, .etalage_zoom_img{ position:relative }
+.etalage img, .etalage li{ -webkit-user-select:none; -khtml-user-select:none; -moz-user-select:none; -o-user-select:none; user-select:none; -webkit-user-drag:none; -moz-user-drag:none; user-drag:none }
+.etalage, .etalage_small_thumbs li{ float:left }
+.etalage_right{ float:right }
+.etalage li{ position:absolute; }
+.etalage img{ vertical-align:bottom; max-width:none }
+.etalage_magnifier{ cursor:default; position: absolute  !important;}
+.etalage_magnifier div, .etalage_small_thumbs{ overflow:hidden }
+.etalage_magnifier div img{ display:none }
+.etalage_icon, .etalage_hint{ cursor:default; width:0; height:0; overflow:hidden }
+.etalage_small_thumbs li.vertical{ float:none; }
+.etalage_zoom_area{ z-index:996; position: absolute !important; top: 0 !important   }
+.etalage_zoom_area div{ overflow:hidden; z-index:997 }
+.etalage_zoom_preview{ position:absolute; z-index:998 }
+.etalage_zoom_img, .etalage_hint{ z-index:999 }
+.etalage{ direction:ltr }
+div.etalage_description{ position:absolute; bottom:0; left:0; z-index:999 }
+div.etalage_description.rtl{ direction:rtl; text-align:right }
+
+
+.etalage_small_thumbs{top: 0 !important; margin-top: 360px !important; position: relative !important;}
+
+.etalage{height: auto !important;}
+
+.etalage_small_thumbs li{margin:0 8px 0 0 !important;}
+
+.etalage_small_thumbs ul{width:350px !important;}
+
+
+
+/*  entangle css end */
+
+
+.freegiftwishlist
+{
+	margin-top: -15px !important;
+}
+.freegiftwishlist p
+{
+	margin-right: 10px;
+}
+
+.freegiftwishlist a
+{
+	padding-right: 26px !important;
+}
+
+.freegiftwishlist img
+{
+	background-position: 10px;
+}
+#short_description_block em
+{
+	font-style: italic;
+}
+
+.redstarsreviewpan
+{
+	float: left !important;
+}
+
+.singlestick
+{
+	float: left !important;
+}
+
+#product_comments_block_tab .comment_author_infos em
+{
+	font-style: normal !important;
+}
+
+#product_comments_block_tab div.comment div.comment_author span
+{
+	color: #999999;
+	font-weight: normal !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:portrait){
+	
+	.my-simple-gallery_wrapper {
+    float: left;
+    width: 52% !important;
+}
+
+.star_content{
+		margin-top: 22px !important;	
+	}
+	
+	#product .content_prices
+	{
+		margin-left: 15px !important;
+
+	}
+	#product p.shiping-info
+	{
+		margin: 8px 0 0 !important;
+	}
+
+	.special_gift {
+	   padding-left: 14% !important;
+	   width: 86% !important;
+	   margin-bottom: 0px !important;
+	}
+	.product_detail_wrapper {
+	    float: right;
+	    width: 46%;
+	    margin-top: -5px !important;
+	}
+
+	#product .product-item-price .content_prices{
+		float:left !important;
+	}
+
+	#product h1#product-title-top{visibility: hidden; float: none;}
+
+	/*.greystarsnew{background:#000;}*/
+
+	.product_desc_container{position: relative !important;}
+	
+
+	.reviewnewest{
+	text-align: right !important;
+	float: right;
+	margin:27px 0 0 !important;
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	width: 20% !important;
+	}
+
+	.greystarnew1{margin-top:23px !important;}
+
+	.redstars_star{
+		text-align: right !important;
+	float: right;
+	margin:52px 0 0 !important;
+	position: absolute;
+	right: 30px;
+	top: 2px;
+	width: 20% !important;
+
+		}
+
+		.grey_star{
+		text-align: right !important;
+	float: right;
+	
+	right: 30px;
+	top: 2px;
+	width: 50% !important;
+
+		}	
+
+	.redstarsreviewpan{
+
+    position: absolute;
+    right: -7px;
+    text-align: right !important;
+    z-index: 99;
+    top: 71px;
+    right: 13px;
+	}
+
+	.befirsttoreview{
+    position: absolute;
+    right: 13px;
+    text-align: right !important;
+    z-index: 99 !important;
+    top: 75px;
+	}
+
+
+	.singlestick{display: none !important;}
+	
+	#product #product_comments_block_extra.review-div-box{
+		width: 10% !important;
+	}
+
+	#product .prev_next{top:15px !important; z-index:10 !important;}
+
+
+	.old_price-prod{float:none!important; line-height: 5px !important;}
+
+	.content_prices .price .old_price_display-prod{padding-right:0 !important; line-height: 2px !important;}
+
+	.write_a_reviewtxt
+	{
+		position: absolute;
+    right: 13px;
+    text-align: right !important;
+    top: 89px;
+    z-index: 99;
+
+	}
+
+	#product #product_comments_block_extra .comments_advices a{line-height: 18px !important; width: 52% !important; float:right !important; text-align: right !important;}
+
+	.product-item-price{margin-top:-3px !important;}
+
+	#product h1#product-title{width:70% !important;}
+	.freegiftwishlist
+	{
+		top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+	.yes_addtobag {
+	    /*clear: both;
+	    display: inline-block;*/
+	    float: right !important;
+	    /*top: -40px;*/
+	    right: 0 !important;
+	    /*margin-bottom: -40px;*/
+	}
+
+    .attributes_group{width: 90% !important;}
+
+   
+
+    .sizepannew{width: 100% !important;}
+
+    #product .add_san .ui-submit .ui-btn-inner{
+		width : auto !important;
+	}
+	.product_features_stock_div
+	{
+		border-top:0 !important;
+		border-bottom:0 !important;
+		padding: 0 !important;
+	}
+	#product .prev_next{
+	margin-right:5px !important;
+	}
+
+
+	#product #product-title{font-size:18px !important;}
+
+	#product .add_san
+	{
+		float: none !important;
+	}
+
+	 .freegiftnewcls{top:46px;}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+	
+	.my-simple-gallery_wrapper {
+		float: left;
+		width: 52% !important;
+	}
+	
+	.star_content{
+		margin-top: 22px !important;	
+	}
+	
+	#product .content_prices
+	{
+		margin-left: 15px !important;
+	}
+	#product p.shiping-info
+	{
+		margin: 8px 0 0 !important;
+	}
+	
+	.special_gift {
+	   padding-left: 14% !important;
+	   width: 86% !important;
+	   margin-bottom: 0px !important;
+	}
+	.yes_addtobag {
+	    clear: both;
+	    display: inline-block;
+	    float: right !important;
+	    top: -40px ;
+	    right: 0 !important;
+	    margin-bottom: -40px;
+	}
+
+	.freegiftwishlist
+	{
+		top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+
+.product_detail_wrapper {
+	    float: right;
+	    width: 46%;
+	    margin-top: -5px !important;
+	}
+	#product .product-item-price .content_prices{float:left !important;
+	}
+
+	#product h1#product-title-top{visibility: hidden; float: none;}
+
+	/*.greystarsnew{background:#000;}*/
+
+	.product_desc_container{position: relative !important;}
+	
+
+	.reviewnewest{
+	text-align: right !important;
+	float: right;
+	margin: 27px 0 0 !important;
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	width: 20% !important;
+	}
+
+	.greystarnew1{text-align:right !important; margin:23px 0 0 0 !important;} 
+
+	.redstars_star{
+		text-align: right !important;
+		float: right;
+		margin:52px 0 0 !important;
+		position: absolute;
+		right: 30px;
+		top: 2px;
+		width: 20% !important;
+
+	}
+
+		.grey_star{
+		text-align: right !important;
+		float: right;
+		right: 30px;
+		top: 2px;
+		width: 50% !important;
+	}	
+
+	.redstarsreviewpan{
+	    position: absolute;
+	    right: -7px;
+	    text-align: right !important;
+	    z-index: 99999;
+	    top: 71px;
+	    right: 13px;
+	}
+
+	.befirsttoreview{
+	    position: absolute;
+	    right: 13px;
+	    text-align: right !important;
+	    z-index: 99 !important;
+	    top: 75px;
+	}
+
+
+	.singlestick{display: none !important;}
+	
+	#product #product_comments_block_extra.review-div-box{
+		width: 10% !important;
+	}
+
+	#product .prev_next{top:15px !important; z-index:10!important;}
+
+	
+
+	.old_price-prod{float:none!important; line-height: 5px !important;}
+
+	.content_prices .price .old_price_display-prod{padding-right:0 !important; line-height: 2px !important;}
+
+	.write_a_reviewtxt
+	{
+		position: absolute;
+	    right: 13px;
+	    text-align: right !important;
+	    top: 89px;
+	    z-index: 99999;
+
+	}
+
+	#product #product_comments_block_extra .comments_advices a{line-height: 18px !important; width: 52% !important; float:right !important; text-align: right !important;}
+
+	.product-item-price{margin-top:-3px !important;}
+
+	#product h1#product-title{width:70% !important;}
+
+	.no_addtobag{top:0 !important;}
+
+	.notify_me_ab{margin-top:0 !important;}
+	.sizepannew{width: 100% !important;}
+
+
+	 #product .add_san .ui-submit .ui-btn-inner{
+		width:auto !important;
+	 }
+	 #product .add_san
+	 {
+	 	float: none !important;
+	 }
+
+	.product_features_stock_div
+	{
+		border-top:0 !important;
+		border-bottom:0 !important;
+		padding: 0 !important;
+	}
+
+		#product .prev_next{
+	margin-right:5px !important;
+	}
+
+	#product #product-title{font-size:18px !important;}
+
+	.freegiftnewcls{top:46px;}
+	
+	#product .prev_next{ z-index:10 !important;}
+}
+
+.product_gift_div
+{
+	margin-bottom: 8px !important;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation:landscape){
+	
+	.special_gift
+	{
+		width: 84% !important;
+	}
+
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) and (orientation:portrait){
+	.special_gift
+	{
+		width: 84% !important;
+	}
+	.cart_quantity_button {
+	   width: 82px !important;
+	}
+}
+
+
